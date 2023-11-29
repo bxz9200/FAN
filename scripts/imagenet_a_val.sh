@@ -10,7 +10,7 @@ ckpt=$2
 CUDA_VISIBLE_DEVICES=0 ./validate_ood.py \
         ../imagenet_a/ \
 	--model $model_name \
-        --img-size 384 \
+        --img-size 224 \
         -b 128 \
         -j 32 \
 	--no-test-pool \
